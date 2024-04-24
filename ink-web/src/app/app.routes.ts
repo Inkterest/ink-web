@@ -7,8 +7,8 @@ import { ArtistViewComponent } from './view/artist-view/artist-view.component';
 
 export const routes: Routes = [
   { path: '', component: LandingMainComponent },
-  { path: '**', component: PageNotFoundComponent },
-  { path: './login', component: LoginComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'artist-view', component: ArtistViewComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
